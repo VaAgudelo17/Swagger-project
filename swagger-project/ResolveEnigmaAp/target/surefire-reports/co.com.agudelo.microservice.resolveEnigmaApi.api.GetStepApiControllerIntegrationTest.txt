@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: co.com.agudelo.microservice.resolveEnigmaApi.api.GetStepApiControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.018 sec <<< FAILURE! - in co.com.agudelo.microservice.resolveEnigmaApi.api.GetStepApiControllerIntegrationTest
+getStepTest(co.com.agudelo.microservice.resolveEnigmaApi.api.GetStepApiControllerIntegrationTest)  Time elapsed: 0.05 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at co.com.agudelo.microservice.resolveEnigmaApi.api.GetStepApiController.getStep(GetStepApiController.java:52)
+	at co.com.agudelo.microservice.resolveEnigmaApi.api.GetStepApiControllerIntegrationTest.getStepTest(GetStepApiControllerIntegrationTest.java:29)
+
